@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+[B<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>test</groupId>
@@ -28,19 +28,19 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    <distributionManagement>
+ <distributionManagement>
     <repository>
         <id>central</id>
-        <name>libs-release-local</name>
+        <name>localhost-releases</name>
         <url>http://192.168.0.29:8081/artifactory/jfrog</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>libs-snapshot-local</name>
+        <name>localhost-snapshots</name>
         <url>http://192.168.0.29:8081/artifactory/jfrog</url>
     </snapshotRepository>
-</distributionManagement>
-    <properties>
+</distributionManagement>   
+     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>

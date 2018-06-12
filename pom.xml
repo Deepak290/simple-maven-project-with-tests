@@ -28,6 +28,18 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>localhost-releases</name>
+        <url>http://192.168.0.29:8081/artifactory/jfrog</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>localhost-snapshots</name>
+        <url>http://192.168.0.29:8081/artifactory/jfrog</url>
+    </snapshotRepository>
+</distributionManagement>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>

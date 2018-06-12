@@ -31,12 +31,12 @@
     <distributionManagement>
     <repository>
         <id>central</id>
-        <name>localhost-releases</name>
+        <name>lib-release-local</name>
         <url>http://192.168.0.29:8081/artifactory/jfrog</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
-        <name>localhost-snapshots</name>
+        <name>libs-snapshot-local</name>
         <url>http://192.168.0.29:8081/artifactory/jfrog</url>
     </snapshotRepository>
 </distributionManagement>
